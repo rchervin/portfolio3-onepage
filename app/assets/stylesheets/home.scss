@@ -2,21 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.navbar {
-  height: 75px;
-  text-align: center;
-}
-.navigation {
-  list-style-type: none;
-  font-family: 'Coves-Bold';
-  li {
-    display: inline-block;
-    font-size: 2rem;
-    text-transform: uppercase;
-    padding: 0px 30px;
-    a {
-      text-decoration: none;
-      color:#333;
-    }
-  }
+.flex {
+  justify-content: center;
 }
