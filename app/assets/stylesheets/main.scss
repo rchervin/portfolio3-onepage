@@ -1,14 +1,18 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.homepage-container {
-  display: flex;
+.homepage {
   justify-content: center;
-  height: 100%;
+  align-items: center;
+  flex: 1;
+}
+.homepage-container {
+  width:80%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .navigation {
-  height: 75px;
   text-align: center;
   margin: 50px auto;
   ul {
@@ -30,6 +34,7 @@
 .footer {
   position: absolute;
   bottom: 0px;
+  height:100px;
   width: 100%;
   text-align: center;
 }

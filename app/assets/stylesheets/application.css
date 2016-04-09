@@ -17,9 +17,16 @@
 
 html, body {
     margin: 0;
+    padding: 0;
     height: 100%;
     background-color: #EBFFFF;
     font-family: 'Coves-Bold';
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
 }
 
 @font-face {
