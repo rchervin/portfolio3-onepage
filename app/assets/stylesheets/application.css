@@ -19,7 +19,7 @@ html, body {
     margin: 0;
     height: 100%;
     background-color: #EBFFFF;
-    font
+    font-family: 'Coves-Bold';
 }
 
 @font-face {
@@ -32,23 +32,3 @@ html, body {
     font-style: normal;
 }
 
-.navigation {
-  height: 75px;
-  text-align: center;
-  margin: 50px auto;
-  ul {
-    list-style-type: none;
-    font-family: 'Coves-Bold';
-    padding-left: 0px;
-    li {
-      display: inline-block;
-      font-size: 2rem;
-      text-transform: uppercase;
-      padding: 0px 30px;
-      a {
-        text-decoration: none;
-        color:#333;
-      }
-    }
-  }
- } 

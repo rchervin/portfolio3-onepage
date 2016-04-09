@@ -4,6 +4,7 @@
 .homepage-container {
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 
 .navigation {
@@ -25,4 +26,10 @@
       }
     }
   }
- } 
+} 
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
