@@ -19,4 +19,16 @@ html, body {
     margin: 0;
     height: 100%;
     background-color: #EBFFFF;
+    font
 }
+
+@font-face {
+    font-family: 'Coves-Bold';
+    src:url('Coves-Bold.ttf.woff') format('woff'),
+        url('Coves-Bold.ttf.svg#Coves-Bold') format('svg'),
+        url('Coves-Bold.ttf.eot'),
+        url('Coves-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
